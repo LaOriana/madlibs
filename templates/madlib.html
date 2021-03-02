@@ -7,9 +7,13 @@
 
 <h1>Madlibs Story</h1>
 
-<p>There once was a {{ color }} {{ noun }} sitting in the Hackbright Lab.
-    When {{ person }} went to pick it up, it burst into flames in a totally
-    {{ adjective }} way.</p>
+<p>There once was a 
+  {% for color in colors %}
+  {{ color }} 
+  {% endfor %}
+
+  {{ noun }} sitting in the Hackbright Lab. When {{ person }} went 
+  to pick it up, it burst into flames in a totally {{ adjective }} way.</p>
 
 </body>
 </html>
