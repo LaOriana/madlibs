@@ -8,21 +8,41 @@
 <h1>Madlibs</h1>
 
 <form action="/madlib" method="GET">
-  <label for="person-input">Select a person:</label> 
+  <label for="person-input">Enter a person:</label> 
   <input type="text" name="person" id="person-input">
   <p></p>
 
-  <label for="color-input">Select a color:</label>
-  <input type="text" name="color" id="color-input">
-  <p></p>
+  <p>Select a color:
+  <label for="color-input">Blue</label>
+  <input type="checkbox" name="color" value="blue" id="color-input">
 
-  <label for="noun-input">Select a noun:</label>
+  <label for="color-input">Orange</label>
+  <input type="checkbox" name="color" value="orange" id="color-input">
+
+  <label for="color-input">Green</label>
+  <input type="checkbox" name="color" value="green" id="color-input">
+
+  <label for="color-input">Purple</label>
+  <input type="checkbox" name="color" value="purple" id="color-input">
+  </p>
+
+  <label for="noun-input">Enter a noun:</label>
   <input type="text" name="noun" id="noun-input">
   <p></p>
 
-  <label for="adjective-input">Select an adjective:</label>
-  <input type="text" name="adjective" id="adjective-input">
-  <p></p>
+  <p>Select an adjective:
+  <label for="adjective-input">Minty</label>
+  <input type="radio" name="adjective" value="minty" id="adjective-input">
+  
+  <label for="adjective-input">Tangy</label>
+  <input type="radio" name="adjective" value="tangy" id="adjective-input">
+
+  <label for="adjective-input">Fluffy</label>
+  <input type="radio" name="adjective" value="fluffy" id="adjective-input">
+
+  <label for="adjective-input">Melodic</label>
+  <input type="radio" name="adjective" value="melodic" id="adjective-input">
+  </p>
 
   <input type="submit">
 
